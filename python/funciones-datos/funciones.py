@@ -31,7 +31,7 @@ def suma(a, b):
 suma(num1, num2)
 
 '''
-
+'''
 def esPar(numero):
     if numero % 2 ==0:
         print("Es par")
@@ -40,3 +40,17 @@ def esPar(numero):
 
 esPar(10)
 esPar(1)
+
+'''
+
+def multi(num = None):
+    if num == None:
+        print("Ingresa un numero valido")
+    else:
+        print(f'TABLA DE MILTIPLICACION DEL {num}')
+        for i in range(1,11):
+            print(f'{i} x {num} = {i*num}')
+
+numb = int(input("Ingrese un numero: "))
+multi(numb)
+
