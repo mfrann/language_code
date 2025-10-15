@@ -41,3 +41,8 @@ inventario = {
 print(inventario.keys()) #--> Manzana, Peras, Sandias
 print(inventario.values()) #--> valores
 print(inventario.items()) #-->ambos
+
+
+'''
+Para imprimir solo el valor de un item del diccionario
+'''
