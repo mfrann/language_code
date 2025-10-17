@@ -14,3 +14,25 @@ Gato:
         acariciar() -> alegria
 
 '''
+
+class Perro():
+    def sonido(self):
+        print("GUAU")
+
+class Gato():
+    def sonido(self):
+        print("MIAU")
+
+class Cerdo():
+    def sonido(self):
+        print("OINK")
+
+def onSonido(animal):
+    animal.sonido()
+
+gato = Gato()
+perro = Perro()
+cerdo = Cerdo()
+
+
+onSonido(cerdo)
