@@ -10,7 +10,7 @@ console.log("Bienvenido a Adivina el número");
 console.log("El número secreto está entre 1 y 10");
 
 const rl = readline.createInterface({
-    input: process.stdin,
+    input: process.stdin, 
     output: process.stdout
 });
 
